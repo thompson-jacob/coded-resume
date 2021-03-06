@@ -5,50 +5,77 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Jacob Thompson</title>
-  <link rel="stylesheet" href="style.css"></link>
+  <link rel="stylesheet" href="./font-mfizz-2.4.1/font-mfizz.css">
   <script src="https://kit.fontawesome.com/f4de4e78d0.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300,800,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css"></link>
 </head>
 <body>
+  <main>
   <header>
-    <div class="name-top"><strong>Jacob Thompson</strong></div>
-    <span>(314)560-0618</span>
-    <a href="mailto: Cobalt7291@gmail.com">Cobalt7291@gmail.com</a>
-    <a href="https://www.github.com/thompson_jacob" target="_blank" class="fab fa-github">Personal Website</a>
-    <a href="https://www.linkedin.com/in/thompson-jacob/" target="_blank" class="fab fa-linkedin"></a>
-    <a href="thompson_jacob.io">Personal Website</a>
+    <h1 id="name-top"><strong>Jacob Thompson</strong></h1>
+    <div class="font-icons">
+      <a href="https://www.github.com/thompson_jacob" target="_blank" class="fab fa-github"></a>
+      <a href="https://www.linkedin.com/in/thompson-jacob/" target="_blank" class="fab fa-linkedin"></a>
+    </div>
+    <span class="contact">(314)560-0618</span> 
+    <span class="divider">&nbsp; | &nbsp;</span>
+    <a class="contact" href="mailto: Cobalt7291@gmail.com">Cobalt7291@gmail.com</a>
+    <span class="divider">&nbsp; | &nbsp;</span>
+    <a class="contact" href="thompson_jacob.io">Personal Website</a>
   </header>
 
-  <body>
+  
     
-    <section class="summary">
-      <span>SUMMARY</span> 
-      Full Stack Web Developer with a knack for delivering customized user stories through Ruby on Rails applications that are backed by PostgreSQL. Utilizes modern frameworks to implement designs that are both dynamic as well as aesthetic. Fascinated by the applications of programming and technology to make a better society.
+    <section>
+      <p class="mb-0 section-header">Summary</p>
+      <p class="mt-2">Full Stack Web Developer with a knack for delivering customized user stories through Ruby on Rails applications that are backed by PostgreSQL. Utilizes modern frameworks to implement designs that are both dynamic as well as aesthetic. Fascinated by the applications of programming and technology to make a better society.</p>
     </section>
    
     <section class="skills">
       <div>
-        <h3>Technical Skills</h3>
-        <p>
-          <span>Languages   </span>
-        <span>Applications    </span>
-        <span>Database Systems    </span>
-        </p>
-        <p>
-          <span>Ruby, JavaScript, Python, Java, HTML, CSS  </span>
-          <span>Vue.js, Node, Bootstrap, jQuery </span>
-          <span> MySQL, MS Access, PostgreSQL</span>
-
-        </p>
-      </div>
-
+        <h3 class="mb-0 section-header">Technical Skills</h3>
+        <div class="row">
+          <div class="col-4">
+            <h4 class="skill-header">Applications</h4>
+            <ul class="skill-text">
+              <li><i class="icon-ruby-on-rails-alt"></i> Ruby on Rails</li>
+              <li><i class="icon-nodejs"></i> Vue.js</li>
+              <li><i class="icon-jquery"></i> Node</li>
+              <li><i class="icon-bootstrap"></i> Bootstrap</li> 
+              <li><i class="fab fa-vuejs"></i> jQuery</li>
+            </ul>
+          </div>
+          <div class="col-4">
+            <h4 class="skill-header">Languages</h4>
+            <ul class="skill-text">
+              <li><i class="icon-ruby"></i> Ruby</li>
+              <li><i class="icon-javascript"></i> JavaScript</li>
+              <li><i class="icon-java"></i> Java</li>
+              <li><i class="icon-python"></i> Python</li>
+              <li><i class="icon-html5-alt"></i> HTML</li>
+              <li><i class="icon-css"></i> CSS</li>
+            </ul>
+          </div>
+          <div class="col-4">
+            <h4 class="skill-header">Database Systems</h4>
+            <ul class="skill-text">
+              <li><i class="icon-postgres"></i> PostrgreSQL</li>
+              <li><i class="icon-mysql"></i> MySQL</li>
+              <li><i class='small-icon fab fa-microsoft'></i> Microsoft Access</li>
+            </ul>
+          </div>
+        </div>
+      </div>      
     </section>
 
     <section class="education">
-      <h3>EDUCATION</h3>
-      <p><span><strong>Full Stack Web Development</strong></span>
-        <span><em>Chicago, IL | November 2020 - March 2021</em></span>
+      <h3 class="mb-0 section-header">Education</h3>
+      <p class="mt-2"><span><strong>Full Stack Web Development</strong></span>
+        <span class='date-place'><em>Chicago, IL | November 2020 - March 2021</em></span>
       </p>
-      <p>Actualize Coding Bootcamp</p>
+      <p class="subhead"><strong>Actualize Coding Bootcamp</strong></p>
       <ul>
         <li><strong>Capstone Project (StonkCharts): </strong>Personally built a web app that allows the user to create customized chart overlays for daily stock data, enabling analysis to find trend lines using TraingVue.js. User data is cached and stored using PostgreSQL and Ruby on Rails.
         </li>
@@ -60,19 +87,19 @@
           </ul>
         </li>
       </ul>
-      <p><span class='title-heading-left'><strong>Associate in Science, Computer Programming</span><span class='city-heading-right'><em>Boca Raton, FL | August 2018 - December 2020</em></span></strong>
+      <p class="mb-0"><span class='title-heading'><strong>Associate in Science, Computer Programming</strong></span><span class='date-place'><em>Boca Raton, FL | August 2018 - December 2020</em></span>
       </p>
-      <p><stong>Palm Beach State College</stong></p>
-      <p><stong>GPA: 3.6/4.0 - Graduate Cum Laude</stong></p>
+      <p class="subhead"><stong>Palm Beach State College</stong></p>
+      <p class="subhead"><stong>GPA: 3.6/4.0 - Graduate Cum Laude</stong></p>
       <ul>
         <li>Materials Covered: Python, Objective C, Java, Bash, Javascript, Linux, Excel, MS Access, MS Project, jQuery, Cyber Security</li>
       </ul>
     </section>
 
     <section class="experience">
-      <h3>EXPERIENCE</h3>
-      <p><span><strong>Options & Securities Broker, </strong>Self-Employed</span>
-        <span><em>Remote | October 2018 - Present</em></span>
+      <h3 class="mb-0 section-header">Experience</h3>
+      <p class="mt-2"><span><strong>Options & Securities Broker, </strong>Self-Employed</span>
+        <span  class='date-place'><em>Remote | October 2018 - Present</em></span>
       </p>
       <ul>
         <li>Outperformed the market by 186% in 2020, doubling the value of my portfolio.
@@ -82,28 +109,29 @@
       </ul>
 
       <p><span><strong>Delivery Driver, </strong>Delivery Dudes</span>
-        <span><em>Palm Beach County, FL | February 2019 - July 2020</em></span>
+        <span  class='date-place'><em>Palm Beach County, FL | February 2019 - July 2020</em></span>
       </p>
       <ul>
         <li>Coordinated with dispatch and restaurants to ensure organized and timely delivery of orders</li>
         <li>Onboarded two new restaurants by networking and consistently promoting the company</li>
       </ul>
       <p><span><strong>Luigi Di Roma, </strong>Server</span>
-        <span><em>Deerfield Beach, FL | February 2019 - July 2020</em></span>
+        <span  class='date-place'><em>Deerfield Beach, FL | February 2019 - July 2020</em></span>
       </p>
       <ul>
         <li>Trained incoming servers in restaurant policies and procedures</li>
         <li>Delivered consistent, high quality customer service to all guests ensuring all customers left satisfied</li>
       </ul>
       <p><strong>Additional Experience:</strong> Administrative Assistant, Oklahoma City Mental Health Associate, 2011 |
-        Clerk’s Assistant, WSV Law Firm, 2010 | 
+        Clerk’s Assistant, WSV Law Firm, 2010 
       </p>
     </section>
-  </body>
+  
 
   <footer>
 
 
   </footer>
+</main>
 </body>
 </html>

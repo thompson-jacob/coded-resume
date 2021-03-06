@@ -1,12 +1,132 @@
+
+header {
+  text-align: center;
+}
+
 body {
-font-family:  ;
-
+  background: url("wood.jpeg");
+  color: rgb(75, 52, 71);
 }
 
-summary {
-
+main {
+  font-family: "Roboto", sans-serif;
+  margin: 4%;
+  padding: 10px;
+  border: 2px solid rgb(12, 12, 11);
+  background: cornsilk;
 }
 
-skills {
+#name-top {
+  text-align: center;
+  font-size: 1.5em;
+}
+.divider {
+  display: none;
+}
+.section-header {
+  text-align: center;
+  font-weight: 800;
+  font-size: 1.2em;
+  letter-spacing: 1px;
+}
 
+.date-place {
+  display: block;
+}
+
+.mb-0 {
+  margin-bottom: 0;
+}
+.mt-2 {
+  margin-top: 2%;
+}
+/* Skills styling */
+.row {
+  width: 100%;
+}
+.col-4 {
+  width: 80%;
+  text-align: center;
+  margin: 0 auto;
+  height: fit-content;
+  display: block;
+}
+.skill-text {
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+}
+.skill-header {
+  margin-bottom: 2%;
+  margin-top: 3%;
+  text-decoration: underline;
+}
+
+i {
+  font-size: 26px;
+}
+
+.small-icon {
+  font-size: 26px !important;
+}
+
+.subhead {
+  margin: 0;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.fab {
+  font-size: 2em;
+  text-decoration: none;
+}
+
+.contact {
+  display: block;
+  margin: 6px 2px;
+}
+
+/* /* Added Media Queries  */
+@media screen and (min-width: 600px) {
+  .divider {
+    display: inline-block;
+  }
+  .contact {
+    display: inline-block;
+  }
+  main {
+    padding: 2.5%;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  main {
+    background-color: cornsilk;
+    margin: 75px 10%;
+    padding: 3.5%;
+  }
+
+  .col-4 {
+    width: 28%;
+    text-align: center;
+    display: inline-block;
+  }
+  .row {
+    display: flex;
+    justify-content: space-evenly;
+    top: 5px;
+  }
+  .mt-2 {
+    margin-top: 1%;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  main {
+    background-color: cornsilk;
+    margin: 75px 12%;
+  }
+  .date-place {
+    float: right;
+  }
 }

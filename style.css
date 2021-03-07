@@ -18,7 +18,7 @@ main {
 
 #name-top {
   text-align: center;
-  font-size: 2.3em;
+  font-size: 1.5em;
 }
 .divider {
   display: none;
@@ -26,7 +26,7 @@ main {
 .section-header {
   text-align: center;
   font-weight: 800;
-  font-size: 1.7em;
+  font-size: 1.2em;
   letter-spacing: 1px;
 }
 
@@ -97,6 +97,13 @@ i {
   main {
     padding: 2.5%;
   }
+  .section-header {
+    font-size: 1.4em;
+  }
+  #name-top {
+    text-align: center;
+    font-size: 1.7em;
+  }
 }
 
 @media screen and (min-width: 700px) {
@@ -119,6 +126,13 @@ i {
   .mt-2 {
     margin-top: 1%;
   }
+  .section-header {
+    font-size: 1.6em;
+  }
+  #name-top {
+    text-align: center;
+    font-size: 2em;
+  }
 }
 
 @media screen and (min-width: 1000px) {
@@ -128,5 +142,12 @@ i {
   }
   .date-place {
     float: right;
+  }
+  .section-header {
+    font-size: 1.9em;
+  }
+  #name-top {
+    text-align: center;
+    font-size: 2.7em;
   }
 }

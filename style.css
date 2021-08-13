@@ -1,12 +1,65 @@
+header {
+  text-align: center;
+}
+
 body {
-font-family:  ;
+background: url("wood.jpeg");
+}
+
+main {
+  font-family: 'Roboto', sans-serif;
+  margin: 8%;
+  padding: 10px;
+  border: 2px solid rgb(12, 12, 11);
+  background: cornsilk;
+}
+ 
+#name-top {
+  text-align: center;
+  font-size: 1.5em;
+  
+}
+
+.section-header {
+  text-align: center;
+  font-weight: bolder;
+  font-size: 1.1em;
+}
+
+
+.float {
+  /* font-style: italic; */
+  float: left;
+}
+
+.fab {
+  font-size: 2em;
+  text-decoration: none;
+
+  } 
+
+
+
+  /* /* Added Media Queries  */
+@media screen and (min-width: 700px) {
+  main {
+    background-color: cornsilk;
+    margin: 75px 10%;
+  }
+  
+  .float {
+    float: right;
+  }
 
 }
 
-summary {
-
+@media screen and (min-width: 900px) {
+  main {
+    background-color: cornsilk;
+    margin: 75px 12%;
+  }
+  .float {
+    float: right;
+  }
 }
 
-skills {
-
-}

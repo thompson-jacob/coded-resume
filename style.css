@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 
 
@@ -5,31 +6,12 @@ header {
   text-align: center;
 }
 
+=======
+>>>>>>> parent of c4c24d8 (added new experience)
 body {
-background: url("wood.jpeg");
-}
+font-family:  ;
 
-main {
-  font-family: 'Roboto', sans-serif;
-  margin: 8%;
-  padding: 10px;
-  border: 2px solid rgb(12, 12, 11);
-  background: cornsilk;
-}
- 
-#name-top {
-  text-align: center;
-  font-size: 1.5em;
-  
-}
-
-.section-header {
-  text-align: center;
-  font-weight: bolder;
-  font-size: 1.1em;
-}
-
-
+<<<<<<< HEAD
 
 
 .fab {
@@ -76,11 +58,17 @@ main {
 }
 
 
+=======
+}
+
+summary {
+>>>>>>> parent of c4c24d8 (added new experience)
 
 .date-place {
   display: block;
 }
 
+<<<<<<< HEAD
 
 @media screen and (min-width: 900px) {
   main {
@@ -190,3 +178,8 @@ i {
 }
 
 
+=======
+skills {
+
+}
+>>>>>>> parent of c4c24d8 (added new experience)

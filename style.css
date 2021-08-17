@@ -1,13 +1,11 @@
-<<<<<<< HEAD
-=======
 
->>>>>>> ee113a796bd013aa2851fe723e912a32cbcf6dca
+
+
 header {
   text-align: center;
 }
 
 body {
-<<<<<<< HEAD
 background: url("wood.jpeg");
 }
 
@@ -32,10 +30,7 @@ main {
 }
 
 
-.float {
-  /* font-style: italic; */
-  float: left;
-}
+
 
 .fab {
   font-size: 2em;
@@ -55,9 +50,7 @@ main {
   .float {
     float: right;
   }
-=======
-  background: url("wood.jpeg");
-  color: rgb(75, 52, 71);
+  
 }
 
 main {
@@ -81,13 +74,14 @@ main {
   font-size: 1.2em;
   letter-spacing: 1px;
 }
->>>>>>> ee113a796bd013aa2851fe723e912a32cbcf6dca
+
+
 
 .date-place {
   display: block;
 }
 
-<<<<<<< HEAD
+
 @media screen and (min-width: 900px) {
   main {
     background-color: cornsilk;
@@ -96,9 +90,8 @@ main {
   .float {
     float: right;
   }
-}
 
-=======
+
 .mb-0 {
   margin-bottom: 0;
 }
@@ -150,7 +143,7 @@ i {
   display: block;
   margin: 6px 2px;
 }
-
+}
 /* /* Added Media Queries  */
 @media screen and (min-width: 600px) {
   .divider {
@@ -216,4 +209,5 @@ i {
     font-size: 2.7em;
   }
 }
->>>>>>> ee113a796bd013aa2851fe723e912a32cbcf6dca
+
+

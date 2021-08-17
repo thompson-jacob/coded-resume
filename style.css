@@ -1,11 +1,56 @@
 
+
+
 header {
   text-align: center;
 }
 
 body {
-  background: url("wood.jpeg");
-  color: rgb(75, 52, 71);
+background: url("wood.jpeg");
+}
+
+main {
+  font-family: 'Roboto', sans-serif;
+  margin: 8%;
+  padding: 10px;
+  border: 2px solid rgb(12, 12, 11);
+  background: cornsilk;
+}
+ 
+#name-top {
+  text-align: center;
+  font-size: 1.5em;
+  
+}
+
+.section-header {
+  text-align: center;
+  font-weight: bolder;
+  font-size: 1.1em;
+}
+
+
+
+
+.fab {
+  font-size: 2em;
+  text-decoration: none;
+
+  } 
+
+
+
+  /* /* Added Media Queries  */
+@media screen and (min-width: 700px) {
+  main {
+    background-color: cornsilk;
+    margin: 75px 10%;
+  }
+  
+  .float {
+    float: right;
+  }
+  
 }
 
 main {
@@ -30,9 +75,22 @@ main {
   letter-spacing: 1px;
 }
 
+
+
 .date-place {
   display: block;
 }
+
+
+@media screen and (min-width: 900px) {
+  main {
+    background-color: cornsilk;
+    margin: 75px 12%;
+  }
+  .float {
+    float: right;
+  }
+
 
 .mb-0 {
   margin-bottom: 0;
@@ -85,7 +143,7 @@ i {
   display: block;
   margin: 6px 2px;
 }
-
+}
 /* /* Added Media Queries  */
 @media screen and (min-width: 600px) {
   .divider {
@@ -151,3 +209,5 @@ i {
     font-size: 2.7em;
   }
 }
+
+
